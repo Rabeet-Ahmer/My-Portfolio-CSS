@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;    
+    padding-bottom: 2rem;
+    margin-top: 10rem;    
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+
+.footer-text {
+    font-size: 1.125rem;  
+    font-weight: 600;     
+    font-family: serif;   
+}

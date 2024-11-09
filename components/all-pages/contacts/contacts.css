@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,800;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.contact-section {
+    background-color: #14b8a6; 
+    transition-duration: 200ms;
+    margin: 2rem 0;
+    margin-top: 20rem;
+    color: black;
+  }
+  
+  .contact-title {
+    font-family: "Playfair Display", serif;
+    font-size: 3rem;
+    font-weight: 800;
+    font-style: normal;
+    justify-self: center;
+  }
+  
+  .contact-subtitle {
+    justify-self: center;
+    margin-top: 1rem;
+    font-weight: 500; 
+    font-size: 2.25rem;
+    text-align: center;
+  }
+  
+  
+  .social-links-list {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 6rem; 
+  }
+  
+  
+  .social-link-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem; 
+    transition-duration: 200ms;
+  }
+  
+  .social-link-item:hover {
+    transform: scale(1.25); 
+  }
+  
+  
+  .social-icon {
+    font-size: 3rem; 
+  }
+  
+  
+  .social-link-text {
+    font-size: 1.5rem; 
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  }
+  
+  
+  .container-padding {
+    padding: 2rem 0; 
+  }

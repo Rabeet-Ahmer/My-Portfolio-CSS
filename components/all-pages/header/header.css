@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.header-container {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.header {
+    display: flex;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+}
+
+.portfolio-title {
+    font-size: 2.25rem;
+    text-align: center;
+    font-weight: 900;
+    font-style: italic;
+    font-family: 'Libre Bodoni', serif;
+    color: rgb(51, 65, 85);
+}
+
+.nav-list {
+    display: flex;
+    gap: 1.25rem;
+    font-weight: 700;
+    list-style: none;
+}
+
+@media (min-width: 1280px) {
+    .nav-list {
+        gap: 2.5rem;
+    }
+}
+
+.nav-item {
+    font-weight: 700;
+    font-size: 1.125rem;
+    font-family: 'Poppins', sans-serif;
+    transition: color 300ms;
+}
+
+.nav-item:hover {
+    color: rgb(239, 68, 68);
+}
